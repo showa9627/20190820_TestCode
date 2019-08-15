@@ -18,7 +18,7 @@ namespace webAPI_Demo._01 {
         /// </summary>
         /// <param name="filters"></param>
         public static void RegisterWebApiFilters(HttpFilterCollection filters) {
-            filters.Add(new Filters.RequireHttpsAttribute());
+            filters.Add(new Filters.RequireHttpsAttribute());  // 強制SSL
         }
     }
 }
